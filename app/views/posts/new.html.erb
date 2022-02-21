@@ -2,12 +2,12 @@
 
 <%= form_with model: @post do |form| %>
   <p>
-    <%= form.label "Title" %>
-    <%= form.text_field "Title" %>
+    <%= form.label "title" %>
+    <%= form.text_field "title" %>
   </p>
   <p>
-    <%= form.label "Description" %>
-    <%= form.text_field "Description" %>
+    <%= form.label "description" %>
+    <%= form.text_field "description" %>
   </p>
   <%= form.hidden_field "place_id" %>
   <%= form.submit %>
