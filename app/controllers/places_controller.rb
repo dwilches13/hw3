@@ -5,7 +5,7 @@ def index
 end
 
 def show
-    @place = Place.find(params["place_id"])
+    @place = Place.find(params["id"])
 end
 
 def new
